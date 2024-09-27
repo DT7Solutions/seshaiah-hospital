@@ -7941,13 +7941,25 @@ h4 a:hover{
 
 .testimonial-style-two{
   position: relative;
+  padding: 10px;
+
 }
 
 .testimonial-style-two .content_block_3 .content-box{
-  padding: 45px 30px 50px 40px;
+  padding: 50px 30px 50px 40px;
   background: #fff;
-  border-radius: 20px;
-  box-shadow: 0 10px 50px #e5edec;
+  border-radius: 10px;
+  border: 1px solid rgb(207, 205, 205);
+  box-shadow: 0 10px 30px #f2f3f3;
+  background-color: rgb(255, 255, 255);
+}
+
+
+.reviews .owl-dot{
+visibility: hidden;
+}
+.reviews .owl-prev,.owl-next{
+  visibility: hidden;
 }
 
 .testimonial-section.testimonial-page{
