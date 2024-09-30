@@ -1927,7 +1927,7 @@ div#mCSB_1_container{
   background: #ffffff;
   overflow: hidden;
   border-radius: 10px;
-  padding: 50px 30px 50px 30px;
+  padding: 10% 5%;
   box-shadow: 0 10px 30px #edf2f2;
 }
 
@@ -1980,7 +1980,7 @@ div#mCSB_1_container{
 
 .service-block-one .inner-box p{
   position: relative;
-  margin-bottom: 32px;
+  margin-bottom: 5%;
   transition: all 500ms ease;
 }
 
@@ -2635,6 +2635,10 @@ div#mCSB_1_container{
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 1px;
+}
+
+.team-block-one .inner-box .lower-content h4 a .education {
+  font-size: 12px;
 }
 
 .content_block_3 .content-box .author-box .designation{
@@ -4450,13 +4454,17 @@ h4 a:hover{
   top: 1px;
   width: 90px;
   height: 90px;
-  line-height: 90px;
+  /* line-height: 90px; */
   background: #d5f1f1;
   font-size: 40px;
   text-align: center;
   border-radius: 50%;
   z-index: 1;
   transition: all 500ms ease;
+}
+.content_block_6 .content-box .inner-box .single-item .icon-box img{
+  max-width: 90px;
+  height: auto;
 }
 
 .content_block_6 .content-box .inner-box .single-item:hover .icon-box{
@@ -5163,6 +5171,7 @@ h4 a:hover{
   background-repeat: no-repeat;
   background-position: center;
   background-blend-mode: multiply;
+  background-color: #F5A329;
 }
 
 .counter-block-two .inner-box{
@@ -5195,7 +5204,8 @@ h4 a:hover{
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  color: #a5a5a8;
+  /* color: #a5a5a8; */
+  color: #ffffff;
 }
 
 .counter-block-two .inner-box:before{
