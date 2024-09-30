@@ -9481,3 +9481,11 @@ visibility: hidden;
 .map-container {
     position: relative;
 }
+
+.our-facility .inner-box{
+  border-radius: 10px;
+  padding: 0px 0px 0px 0px;
+}
+.our-facility .inner-box img{
+  border-radius: 10px;
+}
