@@ -698,7 +698,7 @@ img {
 
 .main-header .logo-box{
   position: relative;
-  padding: 29px 145px 34px 0px;
+  padding: 1% 0%;
 }
 
 .main-header .logo-box .bg-color{
@@ -3441,6 +3441,7 @@ div#mCSB_1_container{
   line-height: 26px;
   left: 0px;
   top: 0px;
+  color: #000;
 }
 
 .header-upper-two{
@@ -3451,8 +3452,8 @@ div#mCSB_1_container{
   position: relative;
   display: flex;
   align-items: center;
-  padding-top: 30px;
-  padding-bottom: 33px;
+  padding-top: 2%;
+  padding-bottom: 1%;
 }
 
 .header-upper-two .info-box li{
@@ -3580,7 +3581,7 @@ div#mCSB_1_container{
   top:0;
   bottom:0;
   width:100%;
-  max-width:360px;
+  max-width:450px;
   z-index:999999;
   overflow:hidden;
   overflow-y:auto;
@@ -3603,7 +3604,7 @@ div#mCSB_1_container{
 }
 
 .sidebar-textwidget{
-  padding:100px 30px;
+  padding: 2.5% 5% 5%;
 }
 
 .sidebar-widget-container{
@@ -3681,12 +3682,12 @@ div#mCSB_1_container{
 }
 
 .sidebar-info-contents .content-inner .logo {
-  padding:0px 0px 40px;
+  padding:0px 0px 20px;
 }
 
 .sidebar-info-contents .content-inner .logo img{
   display:inline-block;
-  max-width:100%; 
+  max-width:75%; 
 }
 
 .sidebar-info-contents .content-inner .content-box{
@@ -3716,7 +3717,7 @@ div#mCSB_1_container{
   position: relative;
   display: block;
   width: 100%;
-  height: 50px;
+  height: 35px;
   background: transparent;
   font-size: 15px;
   border: 1px solid rgba(255,255,255,0.2);
@@ -3736,7 +3737,7 @@ div#mCSB_1_container{
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group textarea{
   resize: none;
-  height: 120px;
+  height: 100px;
 }
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group input:focus,
@@ -3753,7 +3754,7 @@ div#mCSB_1_container{
   color: #fff;
   border-radius: 0px;
   text-align: center;
-  padding: 15px 38px;
+  padding: 10px 32px;
   text-transform: uppercase;
   z-index: 1;
   transition: all 500ms ease;
@@ -3765,7 +3766,7 @@ div#mCSB_1_container{
 
 .sidebar-info-contents .content-inner .contact-info{
   position:relative;
-  margin-top:60px;
+  margin-top: 5%;
 }
 
 .sidebar-info-contents .content-inner .contact-info ul li{
