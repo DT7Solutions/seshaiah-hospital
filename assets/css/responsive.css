@@ -196,6 +196,7 @@
 
   .main-header .logo-box .logo{
     margin: 0 auto;
+    max-width: 100%;
   }
 
   .main-header .header-upper .info-box{
@@ -703,7 +704,9 @@
   }
 
   .header-upper-two .info-box{
-    text-align: center;
+    text-align: start;
+    margin-top: 5%;
+    display: none;
   }
 
   .main-header .header-upper .info-box li{
