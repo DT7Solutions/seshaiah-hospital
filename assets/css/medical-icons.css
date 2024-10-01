@@ -11,7 +11,6 @@
   }
   
   [class^="icon-medical-"], [class*=" icon-medical-"] {
-
     font-family: 'healthmedical-icons' !important;
     speak: none;
     font-style: normal;
@@ -20,14 +19,12 @@
     text-transform: none;
     line-height: 1;
     font-size: 100px;
-  
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
   
   .icon-medical-ambulance:before {
-    content: "\25C0";
-  
+    content: "\e600";
   }
   
   .icon-medical-asclepius-sign:before {
@@ -212,7 +209,6 @@
   
   .icon-medical-heart-attack:before {
     content: "\e62e";
-
   }
   
   .icon-medical-heart-checklist:before {
@@ -225,8 +221,6 @@
   
   .icon-medical-heart:before {
     content: "\e631";
-
-
   }
   
   .icon-medical-helicopter:before {
@@ -423,4 +417,8 @@
   
   .icon-medical-magnifying-glass:before {
     content: "\e662";
+  }
+  
+  .fa-child {
+    font-size: 100px;
   }

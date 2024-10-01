@@ -2106,8 +2106,7 @@ div#mCSB_1_container{
   border-radius: 50%;
   background-blend-mode: multiply;
   padding: 32px 5px;
-  background-color: #F47920;
-  /* background-color: #F4A529; */
+  background-color: #22B6AF;
 }
 
 .image_block_1 .image-box .text h2{
@@ -6799,22 +6798,24 @@ h4 a:hover{
 
 .cta-style-two .pattern-layer .pattern-1{
   position: absolute;
-  left: 125px;
+  left: 0px;
   bottom: 0px;
   height: 100%;
   width: 616px;
   background-size: cover;
   background-repeat: no-repeat;
+  mix-blend-mode: multiply;
 }
 
 .cta-style-two .pattern-layer .pattern-2{
   position: absolute;
   top: 0px;
-  right: 200px;
+  right: 0px;
   width: 532px;
   height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
+  mix-blend-mode: multiply;
 }
 
 
