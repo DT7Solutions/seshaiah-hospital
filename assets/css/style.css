@@ -522,11 +522,11 @@ img {
 }
 
 .sec-pad{
-  padding: 143px 0px 150px 0px;
+  padding: 5% 0%;
 }
 
 .sec-pad-2{
-  padding: 150px 0px;
+  padding: 5% 0%;
 }
 
 .mr-0{
@@ -560,7 +560,7 @@ img {
 .sec-title{
   position: relative;
   display: block;
-  margin-bottom: 60px;
+  margin-bottom: 2.5%;
 }
 
 .sec-title h6{
@@ -568,13 +568,14 @@ img {
   font-size: 16px;
   line-height: 26px;
   font-weight: 600;
-  padding-left: 50px;
+  padding-left: 12.5%;
   text-transform: uppercase;
   margin-bottom: 13px;
 }
 
 .sec-title.centred h6{
-  padding-right: 50px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .sec-title h6:before{
@@ -877,7 +878,7 @@ img {
   position:absolute;
   left: inherit;
   top:100%;
-  width:230px;
+  width:275px;
   z-index:100;
   display:none;
   opacity: 0;
@@ -2233,7 +2234,7 @@ div#mCSB_1_container{
 
 .research-section{
   position: relative;
-  padding: 143px 0px 120px 0px;
+  padding: 5% 0%;
 }
 
 .research-section .pattern .pattern-1{
@@ -2331,7 +2332,7 @@ div#mCSB_1_container{
 
 .team-section{
   position: relative;
-  padding: 150px 0px 143px 0px;
+  padding: 5% 0%;
 }
 
 .image_block_2 .image-box{
@@ -3312,6 +3313,56 @@ div#mCSB_1_container{
   margin-bottom: 38px;
 }
 
+.footer-top .social-links-widget .widget-content .social-box{
+  position:relative;
+  margin-top:20px;
+  margin-bottom:30px;
+}
+
+.footer-top .social-links-widget .widget-content .social-box li{
+  position:relative;
+  display:inline-block;
+  margin-right:6px;
+  transition: all 900ms ease;
+  -moz-transition: all 900ms ease;
+  -webkit-transition: all 900ms ease;
+  -ms-transition: all 900ms ease;
+  -o-transition: all 900ms ease;
+}
+
+.footer-top .social-links-widget .widget-content .social-box li a{
+  position: relative;
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  font-size: 16px;
+  color: #fff;
+  background: #222;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.footer-top .social-links-widget .widget-content .social-box li a:hover{
+  color: #000;
+}
+
+.footer-top .social-links-widget .widget-content .social-box li:first-child a {
+  background: #4267B2; 
+}
+
+.footer-top .social-links-widget .widget-content .social-box li:nth-child(2) a {
+  background: #1DA1F2; 
+}
+
+.footer-top .social-links-widget .widget-content .social-box li:nth-child(3) a {
+  background: #E1306C; 
+}
+
+.footer-top .social-links-widget .widget-content .social-box li:last-child a {
+  background: #FF0000;
+}
+
 .footer-top .subscribe-widget .widget-content .subscribe-form .form-group{
   position: relative;
   border-radius: 30px;
@@ -4195,8 +4246,8 @@ h4 a:hover{
 }
 
 .feature-block-one .inner-box:hover{
-  margin-bottom: -60px;
-  padding-bottom: 119px;
+  margin-bottom: -5%;
+  padding-bottom: 25%;
 }
 
 .feature-block-one .inner-box .icon-box{
@@ -4244,7 +4295,7 @@ h4 a:hover{
   position: absolute;
   display: flex;
   left: 50px;
-  bottom: 50px;
+  bottom: 10%;
   opacity: 0;
   transition: all 500ms ease;
 }
@@ -4618,7 +4669,7 @@ h4 a:hover{
 
 .team-style-two{
   position: relative;
-  padding: 150px 0px 145px 0px;
+  padding: 5% 0%;
 }
 
 .team-style-two .sec-title{
@@ -7290,7 +7341,7 @@ h4 a:hover{
 
 .research-style-two{
   position: relative;
-  padding: 143px 0px 350px 0px;
+  padding: 5% 0%;
   clip-path: polygon(0% 0%, 100% 0%, 100% 95%, 0% 100%, 0% 0%);
 }
 
@@ -7342,6 +7393,7 @@ h4 a:hover{
 
 .research-style-two .inner-content{
   position: relative;
+  padding: 5% 0%;
 }
 
 .research-style-two .inner-content .shape{
@@ -9453,7 +9505,7 @@ visibility: hidden;
   background: #06194b;
   border-radius: 10px;
   padding: 69px 30px 52px 100px;
-  margin-top: 105px;
+  margin-top: 5%;
   z-index: 1;
 }
 
