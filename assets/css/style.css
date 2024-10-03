@@ -2598,8 +2598,8 @@ div#mCSB_1_container{
 }
 
 .content_block_3 .content-box .text p{
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 16px;
+  line-height: 22px;
   color: #142441;
   text-align: justify;
 }
@@ -2610,17 +2610,18 @@ div#mCSB_1_container{
 }
 
 .content_block_3 .content-box .author-box{
-  position: relative;
-  padding: 10px 0px 5px 90px;
-  min-height: 70px;
+  position: absolute;
+  padding: 1% 0% 1% 10%;
+  min-height: 50px;
+  bottom: 2.5%;
 }
 
 .content_block_3 .content-box .author-box .author-thumb{
   position: absolute;
   left: 0px;
   top: 0px;
-  width: 70px;
-  height: 70px;
+  width: 50px;
+  height: 50px;
   border-radius: 50%;
 }
 
@@ -2631,8 +2632,8 @@ div#mCSB_1_container{
 
 .content_block_3 .content-box .author-box h4{
   display: block;
-  font-size: 20px;
-  line-height: 28px;
+  font-size: 18px;
+  line-height: 24px;
   font-weight: 700;
   margin-bottom: 1px;
 }
@@ -2644,7 +2645,7 @@ div#mCSB_1_container{
 .content_block_3 .content-box .author-box .designation{
   position: relative;
   display: block;
-  font-size: 15px;
+  font-size: 14px;
 }
 
 .testimonial-section .owl-nav{
@@ -4451,19 +4452,19 @@ h4 a:hover{
   position: absolute;
   display: inline-block;
   left: 0px;
-  top: 1px;
-  width: 90px;
-  height: 90px;
-  /* line-height: 90px; */
+  top: 0px;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
   background: #d5f1f1;
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   border-radius: 50%;
   z-index: 1;
   transition: all 500ms ease;
 }
 .content_block_6 .content-box .inner-box .single-item .icon-box img{
-  max-width: 90px;
+  max-width: 75px;
   height: auto;
 }
 
@@ -4474,10 +4475,10 @@ h4 a:hover{
 .content_block_6 .content-box .inner-box .single-item .icon-box:before{
   position: absolute;
   content: '';
-  width: 100%;
-  height: 100%;
-  left: 0px;
-  top: 0px;
+  width: 125%;
+  height: 125%;
+  left: -15%;
+  top: -2.5%;
   right: 0px;
   border-radius: 50%;
   transform: scale(0,0);
@@ -7962,6 +7963,7 @@ h4 a:hover{
 }
 
 .testimonial-style-two .content_block_3 .content-box{
+  min-height: 350px;
   padding: 2.5% 5%;
   background: #fff;
   border-radius: 12px;
@@ -7971,7 +7973,7 @@ h4 a:hover{
 }
 
 .testimonial-style-two .content_block_3 .content-box img {
-  max-width: 150px;
+  max-width: 100px;
   margin-left: -1.5%;
 }
 
@@ -9078,11 +9080,11 @@ visibility: hidden;
 }
 
 .blog-details-content .news-block-three .inner-box{
-  margin-bottom: 63px;
+  margin-bottom: 2.5% !important;
 }
 
 .blog-details-content .news-block-three .inner-box .lower-content{
-  padding: 0px;
+  padding: 1.5%;
 }
 
 .blog-details-content .news-block-three .inner-box .lower-content .post-date{
@@ -9101,11 +9103,11 @@ visibility: hidden;
 }
 
 .blog-details-content .content-one .image{
-  margin-bottom: 63px;
+  margin-bottom: 2.5%;
 }
 
 .blog-details-content .content-one .text p{
-  margin-bottom: 26px;
+  margin-bottom: 1%;
 }
 
 .blog-details-content h3{
@@ -9116,9 +9118,13 @@ visibility: hidden;
 }
 
 .blog-details-content .content-one .text h3{
-  padding-top: 30px;
-  margin-bottom: 17px;
+  padding-top: 2.5%;
+  margin-bottom: 1.5%;
 }
+
+/* .blog-details-content .text ul {
+  margin-left: 2.5%;
+} */
 
 .blog-details-content .text .list-item li{
   position: relative;
@@ -9146,19 +9152,19 @@ visibility: hidden;
 }
 
 .blog-details{
-  padding-top: 142px;
+  padding-top: 5%;
 }
 
 .blog-details-content .content-one{
   position: relative;
   display: block;
-  margin-bottom: 64px;
+  margin-bottom: 2.5%;
 }
 
 .blog-details-content .content-two .image-box{
   position: relative;
   margin: 0px -5px;
-  margin-bottom: 63px;
+  margin-bottom: 2.5%;
 }
 
 .blog-details-content .content-two .image-box .image{
@@ -9175,13 +9181,13 @@ visibility: hidden;
 .blog-details-content .content-two{
   position: relative;
   display: block;
-  margin-bottom: 63px;
+  margin-bottom: 5%;
 }
 
 .blog-details-content .post-share-option{
   position: relative;
   display: block;
-  margin-bottom: 70px;
+  margin-bottom: 5%;
 }
 
 .blog-details-content .post-share-option .tags-list li{

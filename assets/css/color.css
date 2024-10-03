@@ -533,16 +533,20 @@ h4 a:hover{
   color: #22b6af;
 }
 
-.blog-details-content .post-share-option .social-links li:first-child a{
-	background: #466ca9;
+.blog-details-content .post-share-option .social-links li:first-child a {
+    background: #4267B2;
 }
 
-.blog-details-content .post-share-option .social-links li:nth-child(2) a{
-  background: #dd4b39;
+.blog-details-content .post-share-option .social-links li:nth-child(2) a {
+    background: #1DA1F2;
 }
 
-.blog-details-content .post-share-option .social-links li:last-child a{
-  background: #55acee;
+.blog-details-content .post-share-option .social-links li:nth-child(3) a {
+    background: #E1306C;
+}
+
+.blog-details-content .post-share-option .social-links li:last-child a {
+    background: #FF0000;
 }
 
 .blog-details-content .author-box .inner .social-links li a:hover{

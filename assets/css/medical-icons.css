@@ -1,11 +1,7 @@
 
 @font-face {
   font-family: 'healthmedical-icons';
-  src: url("../fonts/healthmedical-icons.eot?4vh05z");
-  src: url("../fonts/healthmedical-icons.eot?4vh05z#iefix") format("embedded-opentype"),
-       url("../fonts/healthmedical-icons.ttf") format("truetype"),
-       url("../fonts/healthmedical-icons.woff") format("woff"),
-       url("../fonts/healthmedical-icons.svg?4vh05z#healthmedical-icons") format("svg");
+  src: url("../fonts/healthmedical-icons.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
