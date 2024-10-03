@@ -1,11 +1,11 @@
 
 @font-face {
     font-family: 'healthmedical-icons';
-    src: url("assets/fonts/healthmedical-icons.eot?4vh05z");
-    src: url("assets/fonts/healthmedical-icons.eot?4vh05z#iefix") format("embedded-opentype"), 
-    url("assets/fonts/healthmedical-icons.ttf") format("truetype"), 
-    url("assets/fonts/healthmedical-icons.woff") format("woff"),
-     url("assets/fonts/healthmedical-icons.svg?4vh05z#healthmedical-icons") format("svg");
+    src: url("/assets/fonts/healthmedical-icons.eot?4vh05z");
+    src: url("/assets/fonts/healthmedical-icons.eot?4vh05z#iefix") format("embedded-opentype"), 
+    url("/assets/fonts/healthmedical-icons.ttf") format("truetype"), 
+    url("/assets/fonts/healthmedical-icons.woff") format("woff"),
+     url("/assets/fonts/healthmedical-icons.svg?4vh05z#healthmedical-icons") format("svg");
     font-weight: normal;
     font-style: normal;
   }
