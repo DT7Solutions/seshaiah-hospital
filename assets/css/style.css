@@ -2362,6 +2362,7 @@ div#mCSB_1_container{
 }
 
 .image_block_2 .image-box .shape .shape-2{
+  display: none;
   position: absolute;
   top: 90px;
   right: 20px;
@@ -2394,7 +2395,6 @@ div#mCSB_1_container{
 .content_block_2 .content-box{
   position: relative;
   display: block;
-  margin-left: 30px;
 }
 
 .content_block_2 .content-box .sec-title{
@@ -2402,7 +2402,15 @@ div#mCSB_1_container{
 }
 
 .content_block_2 .content-box .sec-title h2{
-  margin-bottom: 20px;
+  margin-bottom: 1%;
+}
+
+.content_block_2 .content-box .sec-title .education {
+  font-size: 12px;
+}
+
+.content_block_2 .content-box .sec-title .designation {
+  font-size: 14px;
 }
 
 .content_block_2 .content-box .sec-title p{
@@ -2454,12 +2462,38 @@ div#mCSB_1_container{
 .team-section .our-team{
   position: relative;
   display: block;
-  padding-top: 100px;
+  padding-top: 2.5%;
 }
 
-.team-block-one .inner-box{
+.our-team .team-block-one .inner-box{
   position: relative;
   display: block;
+  border-radius: 6px;
+  box-shadow: 0 15px 20px 10px #f2f2f2;
+  margin: 2.5% 0%;
+}
+
+.our-team .team-block-one .inner-box .lower-content {
+  padding: 2.5%;
+  margin: 2.5% 0%;
+  text-align: center;
+  min-height: 125px;
+}
+
+.our-team .team-block-one .inner-box .image-box{
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: 0px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+.our-team .team-block-one .inner-box .image-box img{
+  width: 100%;
+  border-radius: 0px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
 }
 
 .team-block-one .inner-box .image-box{
@@ -2536,6 +2570,7 @@ div#mCSB_1_container{
 .team-block-one .inner-box .lower-content .designation{
   position: relative;
   display: block;
+  word-spacing: -1px;
 }
 
 
@@ -2639,7 +2674,7 @@ div#mCSB_1_container{
   margin-bottom: 1px;
 }
 
-.team-block-one .inner-box .lower-content h4 a .education {
+.team-block-one .inner-box .lower-content h4 .education {
   font-size: 12px;
 }
 
@@ -4253,14 +4288,14 @@ h4 a:hover{
 .feature-block-one .inner-box .icon-box{
   position: relative;
   display: inline-block;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
+  width: 125px;
+  height: 125px;
+  line-height: 125px;
   background: #edf6f6;
-  font-size: 40px;
+  font-size: 90px;
   text-align: center;
   border-radius: 50%;
-  margin-bottom: 25px;
+  margin-bottom: 2.5%;
   z-index: 1;
   transition: all 500ms ease;
 }
@@ -4287,8 +4322,9 @@ h4 a:hover{
   color: #fff;
 }
 
-.feature-block-one .inner-box h4{
-  margin-bottom: 18px;
+.feature-block-one .inner-box h2{
+  margin-bottom: 2.5%;
+  font-weight: 600;
 }
 
 .feature-block-one .inner-box .btn-box{
