@@ -325,7 +325,7 @@
 	if ($('.four-item-carousel').length) {
 		$('.four-item-carousel').owlCarousel({
 			loop:true,
-			margin:30,
+			margin:10,
 			nav:true,
 			smartSpeed: 500,
 			autoplay: 1000,
@@ -338,13 +338,13 @@
 					items:2
 				},
 				800:{
-					items:3
+					items:2
 				},
 				1024:{
-					items:4
+					items:3
 				},
 				1200:{
-					items:4
+					items:3
 				}
 			}
 		});    		
@@ -585,6 +585,25 @@
 	});
 
 	
+
+	$('.owl-carousel').owlCarousel({
+        loop:true,
+        margin:20,
+        nav:false,
+		smartSpeed: 500,
+		autoplay: 1000,
+        responsive:{
+            0:{
+                items:1
+            },
+            600:{
+                items:2
+            },
+            1000:{
+                items:2
+            }
+        }
+    })
 
 	$('.owl-carousel').owlCarousel({
         loop:true,

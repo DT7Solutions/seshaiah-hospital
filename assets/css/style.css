@@ -2335,6 +2335,10 @@ div#mCSB_1_container{
   padding: 5% 0%;
 }
 
+.team-section .image_block_2 .image-box .image img{ 
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
 .image_block_2 .image-box{
   position: relative;
   display: block;
@@ -2517,7 +2521,7 @@ div#mCSB_1_container{
   left: 0px;
   top: 0px;
   transform: scale(0,0);
-  opacity: 0.6;
+  opacity: 0.3;
   transition: all 500ms ease;
 }
 
@@ -2547,7 +2551,7 @@ div#mCSB_1_container{
 .team-block-one .inner-box .lower-content{
   position: relative;
   display: block;
-  padding-top: 22px;
+  padding-top: 2.5%;
 }
 
 .team-block-one .inner-box .lower-content h4{
@@ -6208,7 +6212,7 @@ h4 a:hover{
 .service-style-four .tab-btn-box{
   position: relative;
   display: block;
-  margin-bottom: 60px;
+  margin: 5% 0%;
 }
 
 .service-style-four .tab-btns{
@@ -6220,8 +6224,8 @@ h4 a:hover{
   position: relative;
   display: inline-block;
   float: left;
-  width: 20%;
-  padding: 0px 10px;
+  width: 100%;
+  padding: 0px 1%;
 }
 
 .service-style-four .tab-btns li .single-btn-box{
@@ -6230,10 +6234,17 @@ h4 a:hover{
   background: #fff;
   border-radius: 10px;
   text-align: center;
-  padding: 33px 20px 27px 20px;
+  margin: 5% 0%;
   text-align: center;
   cursor: pointer;
   transition: all 500ms ease;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.service-style-four .tab-btns li .single-btn-box .lower-content {
+  min-height: 150px;
 }
 
 .service-style-four .tab-btns li .single-btn-box .icon-box{
@@ -6285,6 +6296,7 @@ h4 a:hover{
   -ms-transform: scale(.9) translateY(20px);
   transform: scale(.9) translateY(20px);
   transition: all 500ms ease;
+  background: #fff;
 }
 
 .service-style-four .tab-btns li.active-btn .single-btn-box:before,
@@ -6306,15 +6318,18 @@ h4 a:hover{
   background: #fff;
   left: 50%;
   transform: translateX(-50%) rotate(45deg);
-  bottom: 0px;
+  top: 0px;
   opacity: 0;
   transition: all 500ms ease;
 }
 
 .service-style-four .tab-btns li .single-btn-box:hover:after,
 .service-style-four .tab-btns li.active-btn .single-btn-box:after{
-  bottom: -7px;
+  top: -7px;
   opacity: 1;
+  background: #fff;
+  box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .content_block_9 .content-box{
