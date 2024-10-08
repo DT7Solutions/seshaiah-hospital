@@ -861,8 +861,10 @@ img {
 }
 
 .main-menu .navigation > li.current > a,
-.main-menu .navigation > li:hover > a{
-  
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current .current > a,
+.main-menu .navigation > li:hover > li:hover > a {
+  color: #f49120;
 }
 
 .main-menu .navigation > li.dropdown > a:before{
