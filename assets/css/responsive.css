@@ -262,9 +262,14 @@
 
   .header-upper-two .info-box{
     float: none;
-    max-width: 650px;
-    margin: 0 auto;
+    margin: 2.5% 0% 0%;
     padding-top: 0px;
+    justify-content: center;
+  }
+
+  .header-upper-two .info-box li {
+    margin-right: 2.5%;
+    padding-left: 7.5%;
   }
 
   .banner-section.style-two .content-box .image-box{
@@ -1042,6 +1047,9 @@
 }
 
 @media only screen and (max-width: 599px){
+  .main-header.style-two .menu-right-content .nav-btn {
+    display: inline-block;
+  }
 
   .testimonial-section .inner-content{
     padding-left: 30px;

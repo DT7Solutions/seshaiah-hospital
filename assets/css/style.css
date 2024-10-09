@@ -3632,6 +3632,13 @@ div#mCSB_1_container{
   cursor: pointer;
   transition: all 500ms ease;
 }
+.main-header.style-two .menu-right-content .nav-btn {
+  display: none;
+}
+
+.sticky-header .menu-right-content .nav-btn {
+  display: inline-block !important;
+}
 
 .main-header.style-two .menu-right-content li button:hover{
 
@@ -3682,7 +3689,7 @@ div#mCSB_1_container{
   top:0;
   bottom:0;
   width:100%;
-  max-width:450px;
+  max-width:600px;
   z-index:999999;
   overflow:hidden;
   overflow-y:auto;
@@ -3805,7 +3812,14 @@ div#mCSB_1_container{
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group{
   position: relative;
-  margin-bottom: 20px;
+  margin: 2.5% 0%;
+}
+
+.sidebar-info-contents .content-inner .content-box .booking-form .col-md-12,
+.sidebar-info-contents .content-inner .content-box .booking-form .col-md-6 {
+  padding-left: 1% !important;
+  padding-right: 1% !important;
+  width: 100%;
 }
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group:last-child{
@@ -3813,21 +3827,28 @@ div#mCSB_1_container{
 }
 
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group input[type='text'],
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group input[type='date'],
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group input[type='number'],
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group input[type='tel'],
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group input[type='email'],
-.sidebar-info-contents .content-inner .content-box .booking-form .form-group textarea{
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group textarea,
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group select {
   position: relative;
   display: block;
   width: 100%;
-  height: 35px;
+  height: 50px;
   background: transparent;
-  font-size: 15px;
+  font-size: 14px;
   border: 1px solid rgba(255,255,255,0.2);
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 1% 2.5%;
   color: #ffffff;
   transition: all 500ms ease;
 }
-
+.sidebar-info-contents .content-inner .content-box .booking-form .form-group select option{
+  background: #fff;
+  color: #000;
+}
 .sidebar-info-contents .content-inner .content-box .booking-form .form-group input::-webkit-input-placeholder{
   color:#fff;
 }
@@ -7959,7 +7980,7 @@ h4 a:hover{
   position: relative;
   display: block;
   font-size: 16px;
-  color: #222;
+  color: red;
   margin-bottom: 8px;
 }
 

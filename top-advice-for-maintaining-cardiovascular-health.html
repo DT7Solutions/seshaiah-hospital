@@ -85,21 +85,90 @@
                                     <a href="index.html"><img src="assets/images/seshaiah-hosptial-logo-white.png" alt="" /></a>
                                 </div>
                                 <div class="content-box">
-                                    <h4>Book Now</h4>
-                                    <form action="index-2.html" method="post" class="booking-form">
-                                        <div class="form-group">
-                                            <input type="text" name="name" placeholder="Name" required="">
+                                    <h4>Book An Appointment Now</h4>
+                                    <form id="appointment-form" class="booking-form">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="name" class="form-control" placeholder="Your Full Name :" name="name" required>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <input type="email" name="email" placeholder="Email" required="">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="number" id="age" class="form-control" placeholder="Your Age :" name="age" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <select class="form-control" id="gender" name="gender" required>
+                                                        <option value="" disabled selected>Choose a Gender</option>
+                                                        <option value="male">Male</option>
+                                                        <option value="female">Female</option>
+                                                        <option value="other">Other</option>
+                                                    </select>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="form-group">
-                                            <textarea name="message" placeholder="Text"></textarea>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="tel" id="cell-number" class="form-control" placeholder="Your Mobile Number :" name="cell-number" pattern="[0-9]{10}" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="email" id="email" class="form-control" placeholder="Your Email ID :" name="email" required>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <input type="text" id="ref-doc" class="form-control" placeholder="Referral Doctor :" name="ref-doc">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <input type="date" id="date" class="form-control" placeholder="Appointment Date:" name="date" required>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="form-group">
+                                                    <select class="form-control" id="services" name="services" required>
+                                                        <option value="" disabled selected>Choose a service</option>
+                                                        <option value="general-surgery">General Surgery</option>
+                                                        <option value="obstetrics-gynaecology">Obstetrics/Gynaecology</option>
+                                                        <option value="orthopedics">Orthopedics</option>
+                                                        <option value="pediatric-surgery">Pediatric Surgery</option>
+                                                        <option value="plastic-surgery">Plastic Surgery</option>
+                                                        <option value="urology">Urology</option>
+                                                        <option value="bariatric-surgery">Bariatric Surgery</option>
+                                                        <option value="ent-surgery">ENT Surgery</option>
+                                                        <option value="proctology">Proctology</option>
+                                                        <option value="cosmetic-dermatology">Cosmetic Dermatology</option>
+                                                        <option value="emergency-services">Emergency Services</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="form-group">
+                                                    <textarea class="form-control" id="address" placeholder="Your Address :" name="address" rows="3"></textarea>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="form-group message-btn">
-                                            <button type="submit" class="theme-btn-one">Send Now</button>
+                                            <button type="submit" class="theme-btn-one">Submit Appointment</button>
                                         </div>
                                     </form>
+                                    <!-- Success and Error Messages -->
+                                    <div id="success-message" class="alert alert-success text-center d-none">Your appointment has been submitted successfully!</div>
+                                    <div id="error-message" class="alert alert-danger text-center d-none">There was an error. Please try again.</div>    
                                 </div>
                                 <div class="contact-info">
                                     <h4>Contact Info</h4>
@@ -162,7 +231,9 @@
                                 <h5>E-mail Us</h5>
                                 <p><a href="mailto:seshaiahnimmala@gmail.com">seshaiahnimmala@gmail.com</a></p>
                             </li>
-                            <li class="btn-box"><a href="research.html" class="theme-btn-one">Booking Appointment</a></li>
+                            <li class="btn-box nav-btn nav-toggler navSidebar-button clearfix">
+                                <a href="#" class="theme-btn-one">Booking Appointment</a>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -498,8 +569,10 @@
     <script src="assets/js/jquery.fancybox.js"></script>
     <script src="assets/js/appear.js"></script>
     <script src="assets/js/isotope.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/nav-tool.js"></script>
+    <script src="assets/js/form-submit.js"></script>
+    <!-- EmailJS SDK is loaded in the JS file -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
     <script src="assets/js/jquery.paroller.min.js"></script>
 
     <!-- main-js -->
