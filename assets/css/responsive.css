@@ -220,6 +220,20 @@
     margin-top: 50px;
   }
 
+  .image_block_1 .image-box .text{
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    display: inline-block;
+    width: 175px;
+    height: 175px;
+    text-align: center;
+    border-radius: 50%;
+    background-blend-mode: multiply;
+    padding: 32px 5px;
+    background-color: #22B6AF;
+  }
+
   .content_block_2 .content-box{
     margin-left: 0px;
   }
@@ -608,6 +622,11 @@
 
 @media only screen and (max-width: 767px){
 
+  .page-title .content-box .shape {
+    top: -10px;
+    background-size: contain;
+  }
+
   .sec-pad{
     padding: 65px 0px 70px 0px;
   }
@@ -649,6 +668,28 @@
 
   .about-section .content_block_1 .content-box{
     margin-right: 0px;
+  }
+
+  .image_block_1 .image-box .text{
+    position: absolute;
+    top: 15px;
+    right: 10px;
+    display: inline-block;
+    width: 125px;
+    height: 125px;
+    text-align: center;
+    border-radius: 50%;
+    background-blend-mode: multiply;
+    padding: 8px 5px;
+    background-color: #22B6AF;
+  }
+  .image_block_1 .image-box .text h2{
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .image_block_1 .image-box .text h5{
+    font-size: 14px;
+    line-height: 20px;
   }
 
   .sec-title{
@@ -911,7 +952,7 @@
   }
 
   .research-style-two{
-    padding: 65px 0px 250px 0px;
+    padding: 65px 0px 50px 0px;
   }
 
   .video-style-two .inner-box{
@@ -1042,6 +1083,13 @@
     padding-top: 70px;
   }
 
+  .sec-title.centred h6:before {
+    left: -15%;
+  }
+  .sec-title.centred h6:after {
+    right: -15%;
+  }
+
 
 
 }
@@ -1118,6 +1166,7 @@
 
   .page-title .title h1{
     font-size: 36px;
+    line-height: 42px;
   }
 
   .event-details .pattern-layer{
@@ -1156,10 +1205,10 @@
     width: 100%;
   }
 
-  .future-member .details-content .content-two .image-box .image,
+  /* .future-member .details-content .content-two .image-box .image,
   .blog-details-content .content-two .image-box .image{
     width: 100%;
-  }
+  } */
 
   .search-popup .search-form fieldset input[type="submit"]{
     position: relative;
@@ -1347,13 +1396,13 @@
     margin-left: 0px;
   }
 
-  
-.testimonial-style-two .content_block_3 .content-box{
-
-  border:none;
-  box-shadow: none;
-
+.content_block_3 .content-box .author-box {
+  position: relative;
 }
+.content_block_3 .content-box .author-box h4,
+.content_block_3 .content-box .author-box span {
+  margin-left: 10%;
+} 
 
 }
 

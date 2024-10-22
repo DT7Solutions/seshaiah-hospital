@@ -151,6 +151,10 @@ input{
   transition: all 500ms ease;
 }
 
+input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(1);
+}
+
 button:focus,
 input:focus,
 textarea:focus{
@@ -1289,7 +1293,7 @@ img {
 
 .mobile-menu .nav-logo{
   position:relative;
-  padding: 10% 2.5%;
+  padding: 10% 5% 10% 2.5%;
   text-align:left;  
   padding-bottom: 5%;
 }
@@ -1446,7 +1450,7 @@ img {
 
 .mobile-menu .navigation li.dropdown .dropdown-btn{
   position:absolute;
-  right:6px;
+  right: 5%;
   top:6px;
   width:32px;
   height:32px;
@@ -6240,7 +6244,7 @@ h4 a:hover{
 
 .service-style-four .tab-btns{
   position: relative;
-  margin: 0px -10px;
+  /* margin: 0px -10px; */
 }
 
 .service-style-four .tab-btns li{
@@ -9100,7 +9104,7 @@ visibility: hidden;
 
 .news-block-three .inner-box .lower-content .inner{
   position: relative;
-  padding-left: 120px;
+  padding-left: 90px;
 }
 
 .news-block-three .inner-box .lower-content .inner h3{
@@ -9278,7 +9282,7 @@ visibility: hidden;
 }
 
 .blog-details{
-  padding-top: 5%;
+  padding: 5% 0%;
 }
 
 .blog-details-content .content-one{
