@@ -2895,6 +2895,7 @@ div#mCSB_1_container{
 
 .event-block-one .inner-box p{
   margin-bottom: 24px;
+  min-height: 75px;
 }
 
 .event-block-one .inner-box .thumb-list li{
