@@ -8628,6 +8628,7 @@ visibility: hidden;
 
 .event-details-content .image img{
   width: 100%;
+  max-height: 500px;
   border-radius: 20px;
 }
 
@@ -8636,53 +8637,40 @@ visibility: hidden;
   font-size: 30px;
   line-height: 38px;
   font-weight: 700;
-  margin-bottom: 24px;
+  margin-bottom: 1.5%;
+}
+
+.event-details-content .text h4{
+  display: block;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 600;
+  margin-bottom: 1%;
 }
 
 .event-details-content .text .black-text{
   font-size: 18px;
-  line-height: 30px;
+  line-height: 28px;
   color: #222;
-  margin-bottom: 26px;
+  margin-bottom: 1.5%;
 }
 
 .event-details-content .text p{
-  line-height: 30px;
+  line-height: 28px;
 }
 
 .event-details-content .content-one .text p{
-  margin-bottom: 26px;
+  margin-bottom: 1.5%;
 }
 
 .event-details-content .content-one{
   position: relative;
   display: block;
-  margin-bottom: 47px;
+  margin-bottom: 2.5%;
 }
 
 .event-details-content .content-one .image{
   margin-bottom: 40px;
-}
-
-.event-details-content .content-two .image-box{
-  position: relative;
-  margin: 0px 5px;
-}
-
-.event-details-content .content-two .image-box .image-column{
-  padding: 0px 10px;
-}
-
-.event-details-content .content-two .image-box .image{
-  margin-bottom: 20px;
-}
-
-.event-details-content .content-two .image-box{
-  margin-bottom: 22px;
-}
-
-.event-details-content .content-two .text p{
-  margin-bottom: 26px;
 }
 
 .events-sidebar{
