@@ -2081,7 +2081,7 @@ div#mCSB_1_container{
 }
 
 .content_block_1 .content-box .sec-title{
-  margin-bottom: 45px;
+  margin-bottom: 2.5%;
 }
 
 .image_block_1 .image-box{
@@ -2557,7 +2557,7 @@ div#mCSB_1_container{
 .team-block-one .inner-box .image-box .social-style-one{
   position: absolute;
   left: 50%;
-  top: 50%;
+  top: 80%;
   transform: translate(-50%,-50%) scale(0,0);
   width: 100%;
   text-align: center;
@@ -4751,6 +4751,43 @@ h4 a:hover{
   padding: 7.5px 32px;
 }
 
+.team-style-two .our-team-main {
+  display: grid;
+  grid-template-columns: 33.33% 33.33% 33.33%;
+  gap: 20px;
+  margin-top: 2.5%;
+}
+.our-team-main .team-block-one .inner-box:hover .image-box {
+  border-radius: 0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.our-team-main .team-block-one .inner-box .lower-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  padding: 2.5% 5%;
+  text-align: center;
+  min-height: 175px;
+  background: #ffffff;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+@media (max-width: 800px) {
+  .team-style-two .our-team-main {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 90%;
+    gap: 20px;
+  }
+  .our-team-main .team-block-one .inner-box .lower-content {
+    min-height: 150px;
+  }
+}
 
 /** team-style-two **/
 
@@ -4760,7 +4797,7 @@ h4 a:hover{
 }
 
 .team-style-two .sec-title{
-  margin-right: 30px;
+  margin-right: 2.5%;
   margin-bottom: 0px;
 }
 
@@ -6216,11 +6253,11 @@ h4 a:hover{
 }
 
 .about-style-four .content_block_1 .content-box .sec-title{
-  margin-bottom: 34px;
+  margin-bottom: 2.5%;
 }
 
 .about-style-four .content_block_1 .content-box .text p{
-  margin-bottom: 31px;
+  margin-bottom: 1.5%;
 }
 
 
