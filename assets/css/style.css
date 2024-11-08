@@ -587,14 +587,14 @@ img {
   content: '';
   background: url(../images/icons/decor-2.png);
   width: 37px;
-  height: 7px;
+  height: 12px;
   left: 0px;
   top: 50%;
   transform: translateY(-50%);
 }
 
 .sec-title.centred h6:before{
-  background: url(../images/icons/decor-1.png);
+  background: url(../images/icons/decor-2.png);
 }
 
 .sec-title.centred h6:after{
@@ -602,7 +602,7 @@ img {
   content: '';
   background: url(../images/icons/decor-2.png);
   width: 37px;
-  height: 7px;
+  height: 12px;
   right: 0px;
   top: 50%;
   transform: translateY(-50%);
@@ -1906,6 +1906,9 @@ div#mCSB_1_container{
 
 .bg-color-1{
   background: #e9f8f8;
+}
+.bg-color-2{
+  background: #22b6af;
 }
 
 
@@ -3469,6 +3472,7 @@ div#mCSB_1_container{
 }
 
 .footer-top .shape .shape-1{
+  display: none;
   position: absolute;
   left: 325px;
   top: 150px;
@@ -3479,6 +3483,7 @@ div#mCSB_1_container{
 }
 
 .footer-top .shape .shape-2{
+  display: none;
   position: absolute;
   right: 90px;
   top: 55px;
