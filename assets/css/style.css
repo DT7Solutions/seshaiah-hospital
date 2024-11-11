@@ -9718,3 +9718,14 @@ visibility: hidden;
   margin: 2.5% 1% 2.5% 5%;
   font-size: 16px;
 }
+
+
+
+/* Sub Banner BG's */
+.about-bg:before,
+.services-bg:before,
+.team-bg:before,
+.blog-bg:before,
+.contact-bg:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/sub-banner.webp);
+}
