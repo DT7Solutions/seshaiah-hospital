@@ -9722,14 +9722,18 @@ visibility: hidden;
 
 
 /* Sub Banner BG's */
-.about-bg:before,
-.team-bg:before,
-.contact-bg:before {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/sub-banner.webp);
+.about-bg:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/about-sub-banner.webp);
 }
 .services-bg:before {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/services-sub-banner.webp);
 }
+.team-bg:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/team-sub-banner.webp);
+}
 .blog-bg:before {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/blogs-sub-banner.webp);
+}
+.contact-bg:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/contact-sub-banner.webp);
 }
