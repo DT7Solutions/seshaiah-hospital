@@ -309,6 +309,10 @@ h1,h2,h3,h4,h5,h6{
     height: 8em;
     width: 8em;
   }
+  .banner-carousel .active .slide-item .image-layer,
+  .banner-carousel .slide-item .image-layer { 
+    background-position: right center;
+  }
 }
 @media screen and (max-width: 500px) {
   .handle-preloader .animation-preloader .spinner {
@@ -1805,7 +1809,7 @@ div#mCSB_1_container{
   font-size: 16px;
   line-height: 25px;
   font-weight: 700;
-  color: #002222;
+  color: #ffffff;
   border: 1px solid #b9c4cb;
   text-align: center;
   padding: 13px 40px 14px 40px;
@@ -3571,7 +3575,7 @@ div#mCSB_1_container{
   line-height: 26px;
   left: 0px;
   top: 0px;
-  color: #000;
+  color: #ffffff;
 }
 
 .header-upper-two{
