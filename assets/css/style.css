@@ -5057,7 +5057,7 @@ h4 a:hover{
 .banner-section.style-three .content-box{
   position: relative;
   max-width: 750px;
-  margin: 0 auto;
+  margin: 0 auto 0 5%;
   padding: 0px;
   z-index: 5;
 }
