@@ -3999,7 +3999,7 @@ div#mCSB_1_container{
 .banner-section.style-two .content-box{
   position: relative;
   width: 100%;
-  padding: 143px 0px 155px 0px;
+  padding: 125px 0px 135px 0px;
 }
 
 .banner-section.style-two .content-box .text{
@@ -8172,7 +8172,7 @@ h4 a:hover{
 .reviews .owl-dot{
 visibility: hidden;
 }
-.reviews .owl-prev,.owl-next{
+.reviews .owl-prev, .reviews .owl-next{
   visibility: hidden;
 }
 
