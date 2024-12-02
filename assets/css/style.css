@@ -2370,6 +2370,7 @@ div#mCSB_1_container{
 }
 
 .image_block_2 .image-box .shape .shape-1{
+  display: none;
   position: absolute;
   top: -55px;
   right: 35px;
@@ -2390,6 +2391,7 @@ div#mCSB_1_container{
 }
 
 .image_block_2 .image-box .shape .shape-3{
+  display: none;
   position: absolute;
   left: -45px;
   bottom: 150px;
@@ -6201,6 +6203,7 @@ h4 a:hover{
 }
 
 .image_block_5 .image-box .shape .shape-3 {
+  display: none;
   position: absolute;
   top: 115px;
   left: -40px;
@@ -6210,6 +6213,7 @@ h4 a:hover{
 }
 
 .image_block_5 .image-box .shape .shape-4 {
+  display: none;
   position: absolute;
   right: 0px;
   bottom: 100px;
