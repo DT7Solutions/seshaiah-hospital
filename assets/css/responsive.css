@@ -1117,6 +1117,12 @@
     float: none;
     display: inline-block;
     text-align: center;
+    padding: 0% 3.5%;
+  }
+  
+  .header-top .text p i {
+    top: 25%;
+    left: 5%;
   }
 
   .main-header .social-links{
