@@ -558,6 +558,8 @@ img {
 
 .scroll-top.open {
   bottom: 12.5%;
+  border-color: #ED3C42;
+  color: #ED3C42;
 }
 
 .scroll-top:hover{
@@ -2112,7 +2114,7 @@ div#mCSB_1_container{
 .image_block_1 .image-box .text{
   position: absolute;
   top: 80px;
-  right: 50px;
+  right: 75px;
   display: inline-block;
   width: 175px;
   height: 175px;
