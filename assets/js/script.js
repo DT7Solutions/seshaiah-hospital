@@ -648,9 +648,9 @@ document.getElementById("contact-form").addEventListener("submit", function(even
     };
 
     // EmailJS configuration
-    emailjs.init("YOUR_PUBLIC_KEY"); 
+    emailjs.init("Z3GPmG9hTiVY_nkks"); 
     // Send appointment data to EmailJS
-    emailjs.send("YOUR_SERVICE_ID", "YOUR_TEMPLATE_ID", emailData)
+    emailjs.send("service_qxb7o1q", "template_0yk8epe", emailData)
     .then(function (response) {
         const successMessage = document.getElementById("contact-success-message");
         successMessage.classList.remove("d-none");
@@ -669,3 +669,12 @@ document.getElementById("contact-form").addEventListener("submit", function(even
         }, 3000);
     });
 });
+
+
+/* 
+  // EMAIL JS CREDENTIALS
+  // User: seshaiahprajavydyasala@gmail.com
+  // PW: Seshaiah@2025
+  // Email Send to Users: seshaiahprajavydyasala@gmail.com, info@seshaiahprajavydyasala.com
+  // Subject Email: New Contact Request from {{from_name}}
+*/
