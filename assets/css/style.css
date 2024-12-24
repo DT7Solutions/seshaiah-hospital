@@ -9795,3 +9795,24 @@ visibility: hidden;
 .my-float{
   margin-top:8px;
 }
+
+
+/* Insurance/TPAs */
+.insurences-tpa {
+  padding: 2.5% 0% 5%;
+}
+.insurences-tpa .tpa-list {
+  display: flex;
+  row-gap: 20px;
+}
+.insurences-tpa .tpa-list .item img {
+  border-radius: 12px;
+  border: 1px solid #f49120;
+}
+.insurences-tpa .tpa-list .item h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  padding: 2.5%;
+  text-align: center;
+}
