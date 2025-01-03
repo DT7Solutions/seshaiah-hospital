@@ -9746,6 +9746,26 @@ visibility: hidden;
 }
 
 
+/* Events Gallery Page */
+.events-gallery {
+  position: relative;
+}
+.events-gallery .inner-box{
+  margin-bottom: 30px;
+}
+.events-gallery .pattern-layer {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  width: 917px;
+  height: 578px;
+  background-repeat: no-repeat;
+}
+.events-gallery .event-item img {
+  border-radius: 12px;
+}
+
+
 
 /* Sub Banner BG's */
 .about-bg:before {
@@ -9755,6 +9775,9 @@ visibility: hidden;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/services-sub-banner.webp);
 }
 .team-bg:before {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/team-sub-banner.webp);
+}
+.event-bg:before {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background/team-sub-banner.webp);
 }
 .blog-bg:before {
