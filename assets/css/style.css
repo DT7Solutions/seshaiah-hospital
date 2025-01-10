@@ -3669,7 +3669,7 @@ div#mCSB_1_container{
   cursor: pointer;
   transition: all 500ms ease;
 }
-.main-header.style-two .menu-right-content .nav-btn {
+.main-header.style-two .menu-right-content .btn-box {
   display: none;
 }
 
